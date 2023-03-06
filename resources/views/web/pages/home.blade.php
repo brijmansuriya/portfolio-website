@@ -1,12 +1,8 @@
 @extends('web.layout.master')
 @section('content')
 <div role="main" class="main">
-
-
-    @include('web.includes.slider');
-
+    @include('web.includes.slider')
     <div class="container">
-
         <div class="row text-center pt-3">
             <div class="col-md-10 mx-md-auto">
                 <h1 class="word-rotator slide font-weight-bold text-8 mb-3 appear-animation" data-appear-animation="fadeInUpShorter">
@@ -23,30 +19,28 @@
                 </p>
             </div>
         </div>
-
     </div>
     <div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200">
         <div class="home-concept mt-5">
             <div class="container">
-
                 <div class="row text-center">
                     <span class="sun"></span>
                     <span class="cloud"></span>
                     <div class="col-lg-2 ms-lg-auto">
                         <div class="process-image">
-                            <img src="img/home/home-concept-item-1.png" alt="" />
+                            <img src="web/img/home/home-concept-item-1.png" alt="" />
                             <strong>Strategy</strong>
                         </div>
                     </div>
                     <div class="col-lg-2">
                         <div class="process-image process-image-on-middle">
-                            <img src="img/home/home-concept-item-2.png" alt="" />
+                            <img src="web/img/home/home-concept-item-2.png" alt="" />
                             <strong>Planning</strong>
                         </div>
                     </div>
                     <div class="col-lg-2">
                         <div class="process-image">
-                            <img src="img/home/home-concept-item-3.png" alt="" />
+                            <img src="web/img/home/home-concept-item-3.png" alt="" />
                             <strong>Build</strong>
                         </div>
                     </div>
@@ -54,25 +48,22 @@
                         <div class="project-image">
                             <div id="fcSlideshow" class="fc-slideshow">
                                 <ul class="fc-slides">
-                                    <li><a href="#"><img class="img-fluid" src="img/projects/project-home-1.jpg" alt="" /></a></li>
-                                    <li><a href="#"><img class="img-fluid" src="img/projects/project-home-2.jpg" alt="" /></a></li>
-                                    <li><a href="#"><img class="img-fluid" src="img/projects/project-home-3.jpg" alt="" /></a></li>
+                                    <li><a href="#"><img class="img-fluid" src="web/img/projects/project-home-1.jpg" alt="" /></a></li>
+                                    <li><a href="#"><img class="img-fluid" src="web/img/projects/project-home-2.jpg" alt="" /></a></li>
+                                    <li><a href="#"><img class="img-fluid" src="web/img/projects/project-home-3.jpg" alt="" /></a></li>
                                 </ul>
                             </div>
                             <strong class="our-work">Our Work</strong>
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
-
     <!-- RECENT POSTS -->
     <section id="blog" class="section section-height-3 border-0 m-0 appear-animation" data-appear-animation="fadeIn">
         <div class="container pb-3">
             <div class="row mb-3">
-
             </div>
             <div class="row">
                 <div class="row pb-3">
@@ -236,7 +227,7 @@
                                 <div class="card border-0 border-radius-0 p-1">
                                     <div class="card-body p-3 z-index-1">
                                         <a href="#" class="d-block opacity-hover-8">
-                                            <img class="card-img-top border-radius-0 mb-2" src="img/demos/blog-1.jpg" alt="Card Image">
+                                            <img class="card-img-top border-radius-0 mb-2" src="web/img/demos/blog-1.jpg" alt="Card Image">
                                         </a>
 
                                         <div class="card-body p-0">
@@ -253,7 +244,7 @@
                                 <div class="card border-0 border-radius-0 p-1">
                                     <div class="card-body p-3 z-index-1">
                                         <a href="#" class="d-block opacity-hover-8">
-                                            <img class="card-img-top border-radius-0 mb-2" src="img/demos/blog-1.jpg" alt="Card Image">
+                                            <img class="card-img-top border-radius-0 mb-2" src="web/img/demos/blog-1.jpg" alt="Card Image">
                                         </a>
 
                                         <div class="card-body p-0">
@@ -270,7 +261,7 @@
                                 <div class="card border-0 border-radius-0 p-1">
                                     <div class="card-body p-3 z-index-1">
                                         <a href="#" class="d-block opacity-hover-8">
-                                            <img class="card-img-top border-radius-0 mb-2" src="img/demos/blog-1.jpg" alt="Card Image">
+                                            <img class="card-img-top border-radius-0 mb-2" src="web/img/demos/blog-1.jpg" alt="Card Image">
                                         </a>
 
                                         <div class="card-body p-0">
@@ -287,7 +278,7 @@
                                 <div class="card border-0 border-radius-0 p-1">
                                     <div class="card-body p-3 z-index-1">
                                         <a href="#" class="d-block opacity-hover-8">
-                                            <img class="card-img-top border-radius-0 mb-2" src="img/demos/blog-1.jpg" alt="Card Image">
+                                            <img class="card-img-top border-radius-0 mb-2" src="web/img/demos/blog-1.jpg" alt="Card Image">
                                         </a>
 
                                         <div class="card-body p-0">
@@ -467,7 +458,7 @@
 
 
 
-    <section class="section section-custom-map appear-animation lazyload" data-appear-animation="fadeInUpShorter" data-src-bg="img/map.png" style="background-color: transparent; background-position: center 0; background-repeat: no-repeat;">
+    <section class="section section-custom-map appear-animation lazyload" data-appear-animation="fadeInUpShorter" data-src-bg="web/img/map.png" style="background-color: transparent; background-position: center 0; background-repeat: no-repeat;">
         <section class="section section-default section-footer">
             <div class="container">
                 <div class="row mt-5 appear-animation" data-appear-animation="fadeInUpShorter">
@@ -489,28 +480,28 @@
                     <div class="row text-center mt-5">
                         <div class="owl-carousel owl-theme carousel-center-active-item" data-plugin-options="{'responsive': {'0': {'items': 1}, '476': {'items': 1}, '768': {'items': 5}, '992': {'items': 7}, '1200': {'items': 7}}, 'autoplay': true, 'autoplayTimeout': 3000, 'dots': false}">
                             <div>
-                                <img class="img-fluid" src="img/logos/logo-1.png" alt="">
+                                <img class="img-fluid" src="web/img/logos/logo-1.png" alt="">
                             </div>
                             <div>
-                                <img class="img-fluid" src="img/logos/logo-2.png" alt="">
+                                <img class="img-fluid" src="web/img/logos/logo-2.png" alt="">
                             </div>
                             <div>
-                                <img class="img-fluid" src="img/logos/logo-3.png" alt="">
-                            </div>
-                            <!-- <div>
-                                <img class="img-fluid" src="img/logos/logo-4.png" alt="">
-                            </div> -->
-                            <div>
-                                <img class="img-fluid" src="img/logos/logo-5.png" alt="">
-                            </div>
-                            <div>
-                                <img class="img-fluid" src="img/logos/logo-6.png" alt="">
+                                <img class="img-fluid" src="web/img/logos/logo-3.png" alt="">
                             </div>
                             <!-- <div>
-                                <img class="img-fluid" src="img/logos/logo-4.png" alt="">
+                                <img class="img-fluid" src="web/img/logos/logo-4.png" alt="">
                             </div> -->
                             <div>
-                                <img class="img-fluid" src="img/logos/logo-2.png" alt="">
+                                <img class="img-fluid" src="web/img/logos/logo-5.png" alt="">
+                            </div>
+                            <div>
+                                <img class="img-fluid" src="web/img/logos/logo-6.png" alt="">
+                            </div>
+                            <!-- <div>
+                                <img class="img-fluid" src="web/img/logos/logo-4.png" alt="">
+                            </div> -->
+                            <div>
+                                <img class="img-fluid" src="web/img/logos/logo-2.png" alt="">
                             </div>
                         </div>
                     </div>

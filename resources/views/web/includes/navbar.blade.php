@@ -6,7 +6,7 @@
                     <div class="header-row">
                         <div class="header-logo">
                             <a href="#">
-                                <img alt="Porto" width="100" height="48" data-sticky-width="82" data-sticky-height="40" src="img/logo-default-slim.png">
+                                <img alt="Porto" width="100" height="48" data-sticky-width="82" data-sticky-height="40" src="web/img/logo-default-slim.png">
                             </a>
                         </div>
                     </div>

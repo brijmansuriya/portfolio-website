@@ -19,3 +19,12 @@ Route::get('/about', [HomeController::class,'about'])->name('about');
 Route::get('/services', [HomeController::class,'services'])->name('services');
 Route::get('/projects', [HomeController::class,'projects'])->name('projects');
 Route::get('/contactus', [HomeController::class,'contactus'])->name('contactus');
+
+Route::get('/711', function () {
+    $exitCode = Artisan::call('cache:clear');
+    $exitCode = Artisan::call('config:clear');
+    $exitCode = Artisan::call('config:cache');
+    $exitCode = Artisan::call('view:clear');
+    $exitCode = Artisan::call('optimize:clear');
+    dd('cache clear');
+});

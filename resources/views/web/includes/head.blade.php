@@ -11,25 +11,25 @@
 <!-- Web Fonts  -->	
 <link id="googleFonts" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800%7CShadows+Into+Light&amp;display=swap" rel="stylesheet" type="text/css">
 <!-- Vendor CSS -->
-<link rel="stylesheet" href="wev/vendor/bootstrap/css/bootstrap.min.css">
-<link rel="stylesheet" href="wev/vendor/fontawesome-free/css/all.min.css">
-<link rel="stylesheet" href="wev/vendor/animate/animate.compat.css">
-<link rel="stylesheet" href="wev/vendor/simple-line-icons/css/simple-line-icons.min.css">
-<link rel="stylesheet" href="wev/vendor/owl.carousel/assets/owl.carousel.min.css">
-<link rel="stylesheet" href="wev/vendor/owl.carousel/assets/owl.theme.default.min.css">
-<link rel="stylesheet" href="wev/vendor/magnific-popup/magnific-popup.min.css">
+<link rel="stylesheet" href="web/vendor/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="web/vendor/fontawesome-free/css/all.min.css">
+<link rel="stylesheet" href="web/vendor/animate/animate.compat.css">
+<link rel="stylesheet" href="web/vendor/simple-line-icons/css/simple-line-icons.min.css">
+<link rel="stylesheet" href="web/vendor/owl.carousel/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="web/vendor/owl.carousel/assets/owl.theme.default.min.css">
+<link rel="stylesheet" href="web/vendor/magnific-popup/magnific-popup.min.css">
 <!-- Theme CSS -->
-<link rel="stylesheet" href="wev/css/theme.css">
-<link rel="stylesheet" href="wev/css/theme-elements.css">
-<!-- <link rel="stylesheet" href="wev/css/theme-blog.css">
-<link rel="stylesheet" href="wev/css/theme-shop.css"> -->
+<link rel="stylesheet" href="web/css/theme.css">
+<link rel="stylesheet" href="web/css/theme-elements.css">
+<!-- <link rel="stylesheet" href="web/css/theme-blog.css">
+<link rel="stylesheet" href="web/css/theme-shop.css"> -->
 <!-- Current Page CSS -->
-<link rel="stylesheet" href="wev/vendor/circle-flip-slideshow/css/component.css">
+<link rel="stylesheet" href="web/vendor/circle-flip-slideshow/css/component.css">
 <!-- Skin CSS -->
-<link id="skinCSS" rel="stylesheet" href="wev/css/skins/default.css">
+<link id="skinCSS" rel="stylesheet" href="web/css/skins/default.css">
 <!-- Theme Custom CSS -->
-<link rel="stylesheet" href="wev/css/custom.css">
+<link rel="stylesheet" href="web/css/custom.css">
 <!-- Head Libs -->
-<script src="vendor/modernizr/modernizr.min.js"></script>
+<script src="web/vendor/modernizr/modernizr.min.js"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 
